@@ -1,0 +1,35 @@
+{
+  "name": "random-animals-client",
+  "version": "1.0.0",
+  "description": "get random animals url",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regonn/random-animals-client.git"
+  },
+  "keywords": [
+    "animals",
+    "api",
+    "wrapper"
+  ],
+  "author": "regonn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/regonn/random-animals-client/issues"
+  },
+  "homepage": "https://github.com/regonn/random-animals-client#readme",
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
