@@ -1,6 +1,6 @@
 {
   "name": "random-animals-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get random animals url",
   "main": "dist/index.js",
   "scripts": {
